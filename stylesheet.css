@@ -1,0 +1,150 @@
+
+body {
+
+	background-color: #f7f8f9;
+	font-family: 'Roboto';
+
+}
+
+p {
+	font-size: 25px;
+}
+
+canvas {
+	border: 5px #3F3F3F;
+	border-style: solid;
+	position: relative;
+	width: 1080px;
+	height: 1080px;
+}
+
+#mainTitleContainer {
+
+}
+
+#title {
+	font-family: "avenir";
+	font-size: 42px;
+	font-weight: 500;
+
+}
+
+#mainImageContainer {
+	border: 5px #3F3F3F;
+	border-style: solid;
+	position: relative;
+	width: 1080px;
+	height: 1080px;
+
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+}
+
+
+.buttonContainer {
+	display: flex-inline;
+	position: relative;
+	width: 1080px;
+}
+
+.button {
+	/*http://codepen.io/Pixcils/pen/KfzFL*/
+    border-style: solid;
+    border-width: 0px 0px 3px;
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+    color: #FFFFFF;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    font-style: normal;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    transition: all 200ms ease-in-out 0s;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#uploadButton {
+	border-color: #004C98;
+    background-color: #004C98;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	margin-bottom: 5px;
+	width: 535px;
+	float: left;
+}
+
+#uploadButton:hover, #uploadButton:focus, #uploadButton:active {
+	background-color: #006CD7;
+}
+
+#filterButton {
+	border-color: #2F8E8D;
+  background-color: #339999;
+	width: 535px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-bottom: 5px;
+	float: right;
+
+}
+
+#filterButton:hover, #filterButton:focus, #filterButton:active{
+    background-color: #46D4D2;
+}
+
+#rotateButton {
+	border-color: #C24984;
+    background-color: #993366;
+	width: 535px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-bottom: 4px;
+	float: right;
+}
+
+#rotateButton:hover, #rotateButton:focus, #rotateButton:active{
+	background-color: #C5518B;
+}
+
+#saveButton {
+	width: 535px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-color: #EABC09;
+	background-color: #FFCC00;
+	float: left;
+}
+
+#saveButton:hover, #saveButton:focus, #saveButton:active {
+    background-color: #FFE47F;
+}
+
+#saveLink {
+	font-family: 'Roboto';
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+
+.sliderContainer {
+	padding: 20px 10px 0px 10px;
+	text-align: center;
+}
+
+#slider {
+	padding-top: 40px;
+	width: 90%;
+}
+
+#overlayImage {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+
+}

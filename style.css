@@ -9,10 +9,11 @@ body {
 #content {
   margin: 40px auto;
   padding: 20px;
+  padding-top: 5px;
   border-radius: 8px;
   width: 80%;
   background: #333;
-
+  box-shadow: 0 0 5px #555;
 }
 #logo {
   display: block;
@@ -34,7 +35,7 @@ body {
   color: #888;
   font-size: 15px;
   text-align: center;
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 #two-picture-container {
   width: 100%;
